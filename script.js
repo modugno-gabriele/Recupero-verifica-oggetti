@@ -12,7 +12,13 @@ const canzone3 = {
 }
 
 function  mostrainfo(){
-    document.getElementById("info").innerHTML = "caratteristiche della canzone <br>" +
+    document.getElementById("info1").innerHTML = "caratteristiche della canzone <br>" +
     "titolo: "+ canzone1.titolo + "<br>" +
     "informazioni: " + canzone1.info + "<br>" ;
+    document.getElementById("info2").innerHTML = "caratteristiche della canzone <br>" +
+    "titolo: "+ canzone2.titolo + "<br>" +
+    "informazioni: " + canzone2.info + "<br>" ;
+    document.getElementById("info3").innerHTML = "caratteristiche della canzone <br>" +
+    "titolo: "+ canzone3.titolo + "<br>" +
+    "informazioni: " + canzone3.info + "<br>" ;
 }
