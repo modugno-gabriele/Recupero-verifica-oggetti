@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+img{
+    border: 20px;
+    border-radius: 30px;
+}
+.info{
+    align-self: center;
+}
